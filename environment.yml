@@ -1,7 +1,6 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: osx-arm64
-@EXPLICIT
 https://conda.anaconda.org/conda-forge/osx-arm64/_py-xgboost-mutex-2.0-cpu_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-arm64/blas-1.0-openblas.conda
 https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-h99b78c6_7.conda
