@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - blas=1.0-openblas
+  - openblas
   - bzip2=1.0.8
   - c-ares=1.19.1
   - ca-certificates=2024.12.14
@@ -224,3 +224,5 @@ dependencies:
   - jupyterlab=4.2.5
   - notebook=7.2.2
   - jupyter=1.0.0
+  - ipykernel=6.29.5 
+  - pyampute=0.0.3
