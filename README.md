@@ -3,8 +3,9 @@
 ---
 ## [Section 0] Title and Team Members
 - Project Title: Aeropolis
+- Group Number: 2
 - Team Members:
-  - 296881 Guia Ludovica Basso
+  - 296881 Guia Ludovica Basso (Captain
   - 297061 Alessio Giannotti
   - 304011 Yasemin Ateş
     
