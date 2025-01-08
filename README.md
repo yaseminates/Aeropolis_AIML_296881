@@ -268,6 +268,8 @@ When visualized, we see that the missing values follow the pattern of the availa
 
 ![Distribution of the Numerical Features](images/distnum.png "Distribution of the Numerical Features")
 
+![Distribution of the Numerical Features](images/distnum2.png "Distribution of the Numerical Features")
+
 We encoded the categorical values and performed the Little’s MCAR test to determine whether missing data is Missing Completely At Random (MCAR).
 
 ![Little's MCAR Test Results](images/littlesmcar.png "Little's MCAR Test Results")
@@ -397,7 +399,48 @@ Due to our target's lack of correlation with the rest of the variables, we decid
 
 The mutual information scores confirmed that “Wind_Speed_kmph” was the most important feature for predicting "Cargo_Capacity_kg", but it also identified  "Quantum_Battery_True" as the second-most important in the very same task. We also found that although none of the other features had major scores, the relationship still wasn’t zero with many features, as opposed to what the heatmap suggested.
 
-![Mutual Information Relationship](images/MIrelationship.png "Mutual Information Relationship")
+Wind_Speed_kmph                  0.346816
+Quantum_Battery_True             0.094931
+Air_Temperature_Celsius          0.003373
+Water_Usage_liters               0.000826
+Market_Region_National           0.000670
+Weather_Status_Missing           0.000488
+Market_Region_Local              0.000420
+Vertical_Landing_Unknown         0.000396
+Climate_Zone_Polar               0.000302
+Climate_Zone_Temperate           0.000301
+Vertical_Max_Speed               0.000237
+Climate_Zone_Missing             0.000214
+Flight_Zone_South                0.000196
+Package_Type_Missing             0.000196
+Equipment_Cost                   0.000167
+Package_Type_Maize               0.000125
+Quantum_Battery_Missing          0.000114
+Vertical_Landing_Unsupported     0.000091
+Terrain_Type_Clay                0.000090
+Terrain_Type_Silt                0.000038
+Flight_Zone_North                0.000010
+Terrain_Type_Sandy               0.000000
+Climate_Zone_Tropical            0.000000
+Terrain_Type_Missing             0.000000
+Flight_Hours                     0.000000
+Flight_Zone_Missing              0.000000
+Terrain_Type_Peaty               0.000000
+Delivery_Time_Minutes            0.000000
+Terrain_Type_Loam                0.000000
+Route_Optimization_Per_Second    0.000000
+Market_Region_Missing            0.000000
+Cleaning_Liquid_Usage_liters     0.000000
+Vertical_Landing_Supported       0.000000
+Package_Type_Wheat               0.000000
+Package_Type_Soybean             0.000000
+Package_Type_Rice                0.000000
+Package_Type_Cotton              0.000000
+Weather_Status_Sunny             0.000000
+Weather_Status_Rainy             0.000000
+Autopilot_Quality_Index          0.000000
+Flight_Zone_West                 0.000000
+dtype: float64
 
 ![Mutual Information Scores](images/MIscores.png "Mutual Information Scores")
 
