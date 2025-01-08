@@ -893,7 +893,7 @@ With cross-validation we made sure the model's performance was consistent across
 - Subsample: 0.8
 - Min samples per split: 2
 - Min samples per leaf: 1
-- 
+  
 This setup helps the model balance accuracy and generalization, improving its predictive ability without overfitting.
 
 We tested how well the **Gradient Boosting model** performs on both the validation and test sets by looking at metrics like **MAE**, **MSE**, and **R^2**. The results showed that the model performed consistently across both datasets:
