@@ -74,7 +74,7 @@ We utilized a sample dataset to speed up the experimentation process and reduce 
 ![Flowchart in structure: Data Loading -> EDA -> Data Processing -> Data Splitting -> Model election -> Training and Validation -> Evaluation -> Final Model](images/flowchart.jpeg "Flowchart")
 
 ## **Contents of the Jupyter Notebook**
-![Contents](images/contents.jpg "Contents")
+![Contents](images/contents.png "Contents")
 
 
 
