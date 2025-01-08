@@ -63,7 +63,7 @@ We utilized a sample dataset to speed up the experimentation process and reduce 
 5. Then run:
     ```
     conda env create -f environment.yml
-    conda activate aeropolis-env
+    conda activate env-aeropolis
     ```
 4. Your Terminal should look like this:
     ```
