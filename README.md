@@ -808,7 +808,7 @@ This evaluation confirms that the model is accurate, generalizes well, and isn't
 
 We created scatter plots to compare the actual values with the predicted values for both the validation set and the test set. The goal was to see how well the model’s predictions align with reality. In both plots, the dashed line represents a perfect match between predictions and actual values.
 
-The points are generally close to this line, showing that the model makes accurate predictions for both validation and test data. However, there’s some scatter, indicating that while the model is performing well, there’s still room for improvement. This helps confirm that the model isn’t overfitting and performs consistently on unseen data. 
+The points are generally close to this line, showing that the model makes accurate predictions for both validation and test data. However, there’s some scatter, indicating that while the model is performing well. This helps confirm that the model isn’t overfitting and performs consistently on unseen data. 
 
 ![Predicted Values for RF](images/RFpred.png "Predicted Values for RF")
 
