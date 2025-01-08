@@ -255,12 +255,13 @@ The results we displayed in the table below show no significant associations (al
 When visualized, we see that the missing values **follow the pattern of the available data.** In the plots, red represents the distribution of the rows where "Cargo_Capacity_kg" is missing, while blue represents the distribution for the entire dataset. This suggests the missingness in *"Cargo_Capacity_kg"* is random and unrelated to these features, which informs us on how we can handle it.
 
 ![Distribution of the Missing Vargo_Capacity Values in the Numerical Features](images/distmissingnum.png "Distribution of the Missing Vargo_Capacity Values in the Numerical Features")
+![Pairplot](images/pairplot.png "Pairplot")
 
-We used **t-tests** to examine whether the missing values in *"Cargo_Capacity_kg"* are related to any of the numerical features in the dataset. We compared the distributions of each numerical feature for rows with missing *"Cargo-Capcity_kg"* against those without missing values. The p-values from the tests were used to check for significant differences, with a threshold of 0.05.
+We used **t-tests** to examine whether the missing values in *"Cargo_Capacity_kg"* are related to any of the numerical features in the dataset. We compared the distributions of each numerical feature for rows with missing *"Cargo_Capcity_kg"* against those without missing values. The p-values from the tests were used to check for significant differences, with a threshold of 0.05.
 
 ![T-Test Results](images/ttest.png "T-Test Results")
 
-We observed no strong connections, except for a relationship between Equipment_Cost and the missing Cargo_Capacity values. We note this relationship however, do not include it in the predictions, as later on the data is proven to be MCAR (Missing Completely At Random).
+We observed no strong connections, except for a relationship between Equipment_Cost and the missing *Cargo_Capacity* values. We note this relationship however, do not include it in the predictions, as later on the data is proven to be MCAR (Missing Completely At Random).
 
 These charts compare the numerical features for rows with missing *"Cargo_Capacity_kg"* (red) to the entire dataset (blue). For most features, the missing values look similar to the overall data, which suggests the missingness is probably random and not tied to specific patterns in these features. This helped us handle the data without worrying about introducing bias.
 
