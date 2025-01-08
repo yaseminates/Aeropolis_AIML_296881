@@ -400,6 +400,7 @@ Due to our target's lack of correlation with the rest of the variables, we decid
 
 The mutual information scores confirmed that “Wind_Speed_kmph” was the most important feature for predicting "Cargo_Capacity_kg", but it also identified  "Quantum_Battery_True" as the second-most important in the very same task. We also found that although none of the other features had major scores, the relationship still wasn’t zero with many features, as opposed to what the heatmap suggested.
 
+```
 Wind_Speed_kmph                  0.346816
 Quantum_Battery_True             0.094931
 Air_Temperature_Celsius          0.003373
@@ -442,6 +443,7 @@ Weather_Status_Rainy             0.000000
 Autopilot_Quality_Index          0.000000
 Flight_Zone_West                 0.000000
 dtype: float64
+```
 
 ![Mutual Information Scores](images/MIscores.png "Mutual Information Scores")
 
