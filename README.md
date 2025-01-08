@@ -50,6 +50,7 @@ We utilized a sample dataset to speed up the experimentation process and reduce 
 - **itertools** generates all pairs of categorical and numerical features for plotting
 - **statsmodels** for power analysis to calculate the required sample size.
 
+---
 #### To replicate our environment, follow these instructions:
 1. Make sure you have cloned the repository by having ran:
     ```
@@ -68,9 +69,12 @@ We utilized a sample dataset to speed up the experimentation process and reduce 
     ```
     (env-aeropolis) yourusername@your-machine Aeropolis_AIML_296881 %
     ```
-
-Flowchart:
+---
+## **Flowchart:**
 ![Flowchart in structure: Data Loading -> EDA -> Data Processing -> Data Splitting -> Model election -> Training and Validation -> Evaluation -> Final Model](images/flowchart.jpeg "Flowchart")
+
+## **Contents of the Jupyter Notebook**
+![Contents](images/contents.jpeg "Contents")
 
 
 
