@@ -69,6 +69,9 @@ We utilized a sample dataset to speed up the experimentation process and reduce 
     (env-aeropolis) yourusername@your-machine Aeropolis_AIML_296881 %
     ```
 
+Flowchart:
+![Flowchart in structure: Data Loading -> EDA -> Data Processing -> Data Splitting -> Model election -> Training and Validation -> Evaluation -> Final Model](images/flowchart.jpeg "Flowchart")
+
 
 
 
