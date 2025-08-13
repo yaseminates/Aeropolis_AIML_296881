@@ -11,6 +11,9 @@
     
 This is a group project for the Artificial Intelligence and Machine Learning course of LUISS University (a.y. 2024-2025).
 
+Please refer to the Jupyter Notebook for a detailed version of this analysis.
+
+
 ---
 # [Section 1] Introduction
 
